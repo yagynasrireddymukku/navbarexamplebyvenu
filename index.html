@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<!--background-position: right top;-->
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa fa-bars" onclick="mobilemenudisplay()"></i>
+            <i class="fa fa-close" style="display: none;"></i>
+        </label>
+        <label class="logo"> YagynaSri </label>
+        <ul id="navtab">
+            <li><a href="#home" onclick="mobilemenunodisplay()">Home</a></li>
+            <li><a href="#about" onclick="mobilemenunodisplay()">About</a></li>
+            <li><a href="#services" onclick="mobilemenunodisplay()">Services</a></li>
+            <li><a href="#intelligence" onclick="mobilemenunodisplay()">intelligence</a></li>
+            <li><a href="#contact" onclick="mobilemenunodisplay()">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1>YagynaSri</h1>
+        <h2> Welcome to our Website </h2>
+        <p><small> This is the home section. </small></p>
+        <div>
+            <button type="button" id="contact_us"> contact us </button>
+            <button type="button" id="about_us"> About us</button>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1> About Us</h1>
+        <div class="about_container">
+            <div class="about_items">
+                <h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Natus, ab officiis exercitationem
+                    rerum corrupti inventore voluptates perspiciatis <br>excepturi architecto facilis.<br> Consequatur
+                    animi
+                    obcaecati quod voluptatibus deleniti ut quia doloribus placeat.</p>
+                <button type="button" id="btns"> Read more </button>
+            </div>
+
+            <div class="timeline">
+                <ul>
+                    <li>
+                        <div class="about_detect">
+                            <h3>DETECT</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="about_learn">
+                            <h3> LEARN</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="about_protect">
+                            <h3>PROTECT</h3>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="section_title"> Our Services </h2>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+        <div class="section_container">
+            <div class="service_container">
+                <div class="services_items">
+                    <div id="img_container">
+                        <img src="assets/Images/rmlogo.png" alt="services" id="img_container">
+                    </div>
+                    <div class="services_text">
+                        <h3> services </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+
+                <div class="services_items">
+                    <div id="img_container">
+                        <img src="assets/Images/rmlogo.png" alt="services" id="img_container">
+                    </div>
+                    <div class="services_text">
+                        <h3> services </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="services_items">
+                    <div id="img_container">
+                        <img src="assets/Images/rmlogo.png" alt="services" id="img_container">
+                    </div>
+                    <div class="services_text">
+                        <h3> services </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="intelligence" id="intelligence">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <h5>intelligence</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <h5>intelligence</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <h5>intelligence</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="card">
+                    <h5>intelligence</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+
+            <div class="col">
+                <h1> INTELLIGENCE </h1><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ex nesciunt similique ea corporis
+                    animi obcaecati consequatur eum ducimus, expedita perspiciatis, quod autem recusandae magni repellat
+                    molestias cum, eaque dolores!</p><br>
+                <p> . Internet Intelligence</p><br>
+                <p> . Compromise Cards Engine</p><br>
+                <p> . Lorem ipsum </p><br><br>
+                <button type="button " id="buttons"> contact us </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <footer>
+            <div class="continer-footer">
+                <div class="footer-row">
+                    <div class="footer-col">
+                        <h4> YagynaSri </h4>
+                        <ul>
+                            <li> Lorem ipsum dolor sit <br>
+                                amet consectetur adipisicing elit.<br>
+                                Aut unde tenetur neque fuga,<br>
+                                fugiat ipsa voluptatum mollitia? Iusto fugiat,<br>
+                                illo quisquam amet tenetur cumque nobis <br>
+                                explicabo dolorum delectus repellendus! Recusandae!</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <!--2nd column-->
+                    <div class="footer-col">
+                        <h6> E-Mail</h6>
+                        <ul>
+                            <a href="mailto:yagynasrireddym@gmail.com" title="E-Mail us at yagynasrireddym@gmail.com">
+                                yagynasrireddym@gmail.com </a>
+                            <h6> Adress </h6>
+                            <li> 2-3a,VedhullaCheruvu(po&vi),<br>velligandla(mandal),<br>prakasam(district),523224.</li>
+                            <br>
+                            <li> Plot no.A9, Survey No:610/2 & 612, Industrial Area,<br>Moula-Ali, Hyderabad, Telangana
+                                500040</li>
+                        </ul>
+                    </div>
+
+
+                    <!--3rd column-->
+                    <div class="footer-col">
+                        <h6> Phone </h6>
+                        <a href="tel:7997428878" title="call +91 7997428878">+91 7997428878</a>
+                        <br>
+                        <a href="tel:7981512642" title="call +91 7981512642">+91 7981512642</a>
+                    </div>
+
+
+                    <!--4th column-->
+                    <div class="footer-col">
+                        <h6> Follow Us </h6>
+                        <ul>
+                            <li>Lorem ipsum dolor sit</li>
+                            <form action="">
+                                <input type="text" placeholder="enter company email" class="input-email">
+                            </form>
+                            <div class="SocialIcons">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-youtube"></i>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row-rights">
+                    <div class="col">
+                        <p>&#169; 2024 YagynaSri. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <script>
+function mobilemenudisplay(){
+    $('#navtab').css({
+        'display': 'Block'
+    });
+}
+
+function mobilemenunodisplay(){
+    $('#navtab').css({
+        'display': 'None'
+    });
+}
+
+
+    </script>
+
+</body>
+
+</html>
